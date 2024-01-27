@@ -1,0 +1,95 @@
+.b1{
+  display: flex;
+  gap: 20%;
+  align-items: center;
+  margin: 5%;
+  align-content: center;
+}
+.i1{
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  padding: 20px;
+}
+.b1 h1{
+  font-size: 40px;
+  white-space: nowrap;
+}
+.b1 button{
+  width: 200px;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.b1 button:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.n1{
+  display: flex;
+  gap: 45%;
+}
+.boxes{
+  display: flex;
+  gap: 26px;
+}
+.box{
+  font-size: large;
+  font-weight: bolder;
+  padding: 25px;
+  background: transparent;
+  border: 1px solid black ;
+}
+.box:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid transparent;
+}
+.point p{
+  margin-bottom: 30px;
+}
+.point p,label{
+  font-size: larger;
+  font-weight: bolder;
+}
+.b2{
+  display:grid;
+  grid-template-columns: 1fr;
+  margin-top: 25px;
+}
+.b2 button{
+  margin-bottom: 5px;
+}
+.game{
+  margin: 90px auto;
+  height: 200px;
+  width: 200px;
+}
+.game img{
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.game button{
+  font-size: large;
+  font-weight: bolder;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid black ;
+  border-radius: 20px;
+ margin-bottom: 10px;
+  width: 200px;
+}
+.game button:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.rules{
+  border: 2px dotted black;
+  margin-top: 20px;
+  width: 300px;
+}
